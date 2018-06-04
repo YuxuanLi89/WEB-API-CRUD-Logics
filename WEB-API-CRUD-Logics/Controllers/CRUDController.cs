@@ -15,7 +15,7 @@ namespace WEB_API_CRUD_Logics.Controllers
     public class CRUDController : ApiController
     {
         private CSharpCornerEntities db = new CSharpCornerEntities();
-        // GET api/CRUD  
+        // GET api/GetEmployees  
         [ResponseType(typeof(IEnumerable<Employee>))]
         [Route("api/GetEmployees")]
         public IQueryable<Employee> GetEmployees()
